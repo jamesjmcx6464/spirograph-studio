@@ -1,6 +1,8 @@
 {
-  "name": "Spirograph Studio Web",
-  "description": "Harmonic epicyclic gear studio and spirograph simulator recreating multi-tier gear chains, precision ink strokes, and classic mathematical presets in real time.",
+  "name": "Spirograph Studio",
+  "description": "A precision rotating pen and mechanical epicycle sandbox. Design mesmerizing spirographs, harmonic curves, and geometric drawings.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
