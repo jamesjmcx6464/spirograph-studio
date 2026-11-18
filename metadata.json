@@ -1,8 +1,6 @@
 {
   "name": "Spirograph Studio",
-  "description": "A precision rotating pen and mechanical epicycle sandbox. Design mesmerizing spirographs, harmonic curves, and geometric drawings.",
+  "description": "Precision epicyclic spirograph and harmonic gear drawing studio.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
