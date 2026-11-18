@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <main
-      className="relative h-dvh w-screen overflow-hidden select-none"
+      className="app-shell relative w-screen overflow-hidden select-none safe-area-pad"
       style={{ backgroundColor: THEME.CanvasBg }}
     >
       {/* 1. Fullscreen Simulation Canvas */}

@@ -39,6 +39,7 @@ export const BottomSheetShell: React.FC<BottomSheetShellProps> = ({
           borderTop: `1px solid ${THEME.PanelEdge}`,
           borderLeft: `1px solid ${THEME.PanelEdge}`,
           borderRight: `1px solid ${THEME.PanelEdge}`,
+          paddingBottom: 'env(safe-area-inset-bottom, 0px)',
         }}
       >
         {showDragHandle && (

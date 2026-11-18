@@ -22,7 +22,14 @@ export const TopHeaderBar: React.FC<TopHeaderBarProps> = ({
   onOpenLearn,
 }) => {
   return (
-    <header className="pointer-events-none fixed top-0 left-0 right-0 z-30 flex items-start justify-between px-4 py-3 sm:px-6 sm:py-4">
+    <header
+      className="pointer-events-none fixed top-0 left-0 right-0 z-30 flex items-start justify-between px-4 py-3 sm:px-6 sm:py-4"
+      style={{
+        paddingTop: 'max(0.75rem, env(safe-area-inset-top, 0px))',
+        paddingLeft: 'max(1rem, env(safe-area-inset-left, 0px))',
+        paddingRight: 'max(1rem, env(safe-area-inset-right, 0px))',
+      }}
+    >
       {/* Left: Title + Learn button */}
       <div className="pointer-events-auto flex flex-col items-start gap-1.5 pt-1">
         <div className="select-none">

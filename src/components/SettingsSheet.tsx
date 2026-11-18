@@ -248,6 +248,13 @@ export const SettingsSheet: React.FC<SettingsSheetProps> = ({
             ZERO ANGLES
           </button>
         </div>
+
+        <p
+          className="mt-6 text-center font-mono text-[10px] tracking-[0.08em] select-none"
+          style={{ color: THEME.MutedGray, opacity: 0.7 }}
+        >
+          {__APP_VERSION__}
+        </p>
       </div>
     </BottomSheetShell>
   );

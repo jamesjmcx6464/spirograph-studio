@@ -23,6 +23,9 @@ export const BottomToolbar: React.FC<BottomToolbarProps> = ({
       style={{
         backgroundColor: THEME.PanelBg,
         borderTop: `1px solid ${THEME.PanelEdge}`,
+        paddingBottom: 'env(safe-area-inset-bottom, 0px)',
+        paddingLeft: 'env(safe-area-inset-left, 0px)',
+        paddingRight: 'env(safe-area-inset-right, 0px)',
       }}
       aria-label="Primary Controls"
     >
